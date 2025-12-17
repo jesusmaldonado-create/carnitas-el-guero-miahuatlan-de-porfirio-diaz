@@ -1,7 +1,8 @@
 body {
-background: #f12711;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(imagen12.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial Black', sans-serif;
@@ -45,6 +46,7 @@ label {
     text-shadow: 8px 8px 16px #ffffff;
     line-height: 50px;
     margin-right: 450px;
+
 }
 li {
     font-family: 'Arial Black', sans-serif;
