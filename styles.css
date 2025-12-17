@@ -1,0 +1,83 @@
+body {
+background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 8px 8px 16px #FFFFFF;
+}
+p {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(255, 230, 0);
+    font-size: 3.5em;
+    text-shadow: 16px 16px 32px #000000;
+    line-height: 20px;
+    margin-left: 450px;
+    text-align: left;
+}
+.imagen-grande {
+    width: 1200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 20px #1100ff;
+}
+.imagen-mediana {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 20px #1100ff;
+}
+label {
+    float: right;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-shadow: 8px 8px 16px #ffffff;
+    line-height: 50px;
+    margin-right: 450px;
+
+}
+li {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+    text-shadow: 16px 16px 32px #000000;
+    line-height: 70px;
+    text-align: center;
+}
+span {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-shadow: 8px 8px 16px #FFFFFF;
+    float: right;
+    line-height: 50px;
+    margin-right: 450px;
+}
+.imagen-pequena {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 20px #1100ff;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 20px #1100ff;
+}
