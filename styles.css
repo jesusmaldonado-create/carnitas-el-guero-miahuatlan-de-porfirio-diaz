@@ -7,16 +7,21 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial Black', sans-serif;
     color: rgb(0, 0, 0);
-    text-align: auto;
     font-size: 10em;
     text-shadow: 8px 8px 16px #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 p {
     font-family: 'Arial Black', sans-serif;
     color: rgb(255, 230, 0);
     font-size: 80px;
     text-shadow: 16px 16px 32px #000000;
-    text-align: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imagen-grande {
     width: 1200px;
@@ -26,6 +31,7 @@ p {
     margin-right: auto;
     border: 5px solid #000000;
     box-shadow: 10px 10px 20px #1100ff;
+    text-align: center;
 }
 .imagen-mediana {
     width: 600px;
@@ -35,28 +41,35 @@ p {
     margin-right: auto;
     border: 5px solid #000000;
     box-shadow: 10px 10px 20px #1100ff;
+    text-align: center;
 }
 label {
     float: right;
     font-family: 'Arial Black', sans-serif;
     color: rgb(0, 0, 0);
     text-shadow: 8px 8px 16px #ffffff;
-    text-align: auto;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 li {
     font-family: 'Arial Black', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 80px;
     text-shadow: 16px 16px 32px #000000;
-    text-align: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 span {
     font-family: 'Arial Black', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 80px;
     text-shadow: 8px 8px 16px #FFFFFF;
-    text-align: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imagen-pequena {
     width: 200px;
@@ -66,12 +79,15 @@ span {
     margin-right: auto;
     border: 5px solid #000000;
     box-shadow: 10px 10px 20px #1100ff;
+    text-align: center;
 }
 iframe {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #000000;
     box-shadow: 10px 10px 20px #1100ff;
-    text-align: auto;
+    justify-content: center;
+    align-items: center;
+
 }
