@@ -1,7 +1,9 @@
 body {
-    background: #ffae00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ffae00, #ff0000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ffae00, #ff0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(imagen12.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .imagen {
@@ -85,4 +87,12 @@ iframe {
     box-shadow: 10px 10px 20px #2600ff;
     width: 80%;
     height: 450px;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+    text-shadow: 8px 8px 16px #2600ff;
+    text-align: center;
+    line-height: 20px;
 }
