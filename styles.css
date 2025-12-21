@@ -1,8 +1,9 @@
 body {
-    background-image: url(imagen12.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
 }
 
 .imagen {
@@ -17,41 +18,56 @@ body {
     width: 80%;
     max-width: 1200px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #2600ff 5px solid;
+    box-shadow: 10px 10px 20px #000000;
 }
 
 .imagen-mediana {
     width: 50%;
     max-width: 600px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #2600ff 5px solid;
+    box-shadow: 10px 10px 20px #000000;
 }
 
 .imagen-pequena {
     width: 20%;
     max-width: 200px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #2600ff 5px solid;
+    box-shadow: 10px 10px 20px #000000;
 }
 
 h1 {
     font-family: 'Arial Black', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 5em;
-    text-shadow: 8px 8px 16px #FFFFFF;
+    font-size: 8em;
+    text-shadow: 8px 8px 16px #ffffff;
     text-align: center;
     line-height: normal;
 }
 h2 {
     font-family: 'Arial Black', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 2.5em;
-    text-shadow: 8px 8px 16px #FFFFFF;
+    font-size: 5em;
+    text-shadow: 8px 8px 16px #ffffff;
     text-align: center;
     line-height: normal;
 }
 h3 {
     font-family: 'Arial Black', sans-serif;
     color: rgb(255, 238, 0);
-    font-size: 2.5em;
-    text-shadow: 8px 8px 16px #000000;
+    font-size: 4em;
+    text-shadow: 8px 8px 16px #2600ff;
     text-align: center;
     line-height: normal;
 }
@@ -59,7 +75,7 @@ span {
     font-family: 'Arial Black', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1em;
-    text-shadow: 4px 4px 8px #000000;
+    text-shadow: 8px 8px 16px #000000;
     text-align: center;
     line-height: normal;
 }
@@ -68,7 +84,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #000000;
-    box-shadow: 10px 10px 20px #1100ff;
+    box-shadow: 10px 10px 20px #2600ff;
     width: 80%;
     height: 450px;
 }
