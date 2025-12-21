@@ -4,25 +4,15 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: 'Arial Black', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 10em;
+    font-size: 18em;
     text-shadow: 8px 8px 16px #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    line-height: 20px;
 }
-p {
-    font-family: 'Arial Black', sans-serif;
-    color: rgb(255, 230, 0);
-    font-size: 80px;
-    text-shadow: 16px 16px 32px #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .imagen-grande {
     width: 1200px;
     height: auto;
@@ -31,7 +21,7 @@ p {
     margin-right: auto;
     border: 5px solid #000000;
     box-shadow: 10px 10px 20px #1100ff;
-    text-align: center;
+    align-items: center;
 }
 .imagen-mediana {
     width: 600px;
@@ -41,34 +31,6 @@ p {
     margin-right: auto;
     border: 5px solid #000000;
     box-shadow: 10px 10px 20px #1100ff;
-    text-align: center;
-}
-label {
-    float: right;
-    font-family: 'Arial Black', sans-serif;
-    color: rgb(0, 0, 0);
-    text-shadow: 8px 8px 16px #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-li {
-    font-family: 'Arial Black', sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 80px;
-    text-shadow: 16px 16px 32px #000000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-span {
-    font-family: 'Arial Black', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 80px;
-    text-shadow: 8px 8px 16px #FFFFFF;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 .imagen-pequena {
@@ -89,5 +51,28 @@ iframe {
     box-shadow: 10px 10px 20px #1100ff;
     justify-content: center;
     align-items: center;
-
+}
+span {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-shadow: 4px 4px 8px #000000;
+    text-align: center;
+    line-height: 20px;
+}
+h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 10em;
+    text-shadow: 8px 8px 16px #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+}
+h3 {
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 10em;
+    text-shadow: 8px 8px 16px #000000;
+    text-align: center;
+    line-height: 20px;
 }
