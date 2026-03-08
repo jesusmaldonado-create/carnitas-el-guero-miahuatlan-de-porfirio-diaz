@@ -1,109 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Carnitas el Güero</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Carnitas el Güero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Carnitas al estilo Michoacan el Güero</h1>
-    <img src="imagen1.jpg" alt="Imagen 1" class="imagen-grande">
-    <h1>Especialidades el "Güero"</h1>
-    <h3>Torta la Güereja  <span>$75</span></h3>
-    <h4>"Chorizo, carnitas, quesillo, pasta de frijol, mayonesa y lechuga"</h4>
-    <h3>Burrito al estilo Acapulco  <span>$95</span></h3>
-    <h4>"Chorizo, carnitas, quesillo, pasta de frijol y lechuga"</h4>
-    <h3>Super quesadilla  <span>$95</span></h3>
-    <h4>"Chorizo, carnitas, pasta de frijol y lechuga"</h4>
-    <h1>Tacos</h1>
-    <img src="imagen2.jpg" alt="Imagen 2" class="imagen-mediana">
-    <h3>Macisa</h3>
-    <h3>Costilla</h3>
-    <h3>Buche</h3>
-    <h3>Trompa</h3>
-    <h3>Oreja</h3>
-    <h3>"<span>$30</span>"</h3>
-    <p>--------------------------------------</p>
-    <h3>Nana</h3>
-    <h3>Chamorro</h3>
-    <h3>Biuses</h3>
-    <h3>Cuerito</h3>
-    <h3>Surtida</h3>
-    <h3>"<span>$25</span>"</h3>
-    <h1>Burritos</h1>
-    <img src="imagen3.jpg" alt="Imagen 3" class="imagen-mediana">
-    <h3>Pollo  <span>$70</span></h3>
-    <h3>Tasajo  <span>$70</span></h3>
-    <h3>Carnitas  <span>$65</span></h3>
-    <h3>Chorizo  <span>$65</span></h3>
-    <h3>Combinados  <span>$75</span></h3>
-    <h1>Tortas</h1>
-    <img src="imagen4.jpg" alt="Imagen 4" class="imagen-mediana">
-    <h3>Carnitas</h3>
-    <h3>Pollo</h3>
-    <h3>Tasajo</h3>
-    <h3>Chorizo</h3>
-    <h3>Salchicha de res</h3>
-    <h3><span>"$70"</span></h3>
-    <p>--------------------------------------</p>
-    <h3>Quesillo  <span>$60</span></h3>
-    <h3>Jamon  <span>$60</span></h3>
-    <h3>Combinadas  <span>$75</span></h3>
-    <h1>Huaraches</h1>
-    <img src="imagen5.jpg" alt="Imagen 5" class="imagen-mediana">
-    <h3>Carnitas  <span>$65</span></h3>
-    <h3>Chorizo  <span>$65</span></h3>
-    <h3>Pollo  <span>$70</span></h3>
-    <h3>Tasajo  <span>$70</span></h3>
-    <h3>Combinados  <span>$75</span></h3>
-    <h1>Gorditas</h1>
-    <img src="imagen6.jpg" alt="Imagen 6" class="imagen-mediana">
-    <h3>Chicharron prensado  <span>$35</span></h3>
-    <h3>Carnitas  <span>$35</span></h3>
-    <h3>Combinadas  <span>$45</span></h3>
-    <h1>Baguettes:</h1>
-    <img src="imagen7.jpg" alt="Imagen 7" class="imagen-mediana">
-    <h3>Sencillo  <span>$95</span></h3>
-    <h3>Carnitas  <span>$110</span></h3>
-    <h3>Especial  <span>$120</span></h3>
-    <h1>Carnitas para llevar</h1>
-    <h2>Macisa</h2>
-    <h3>1kg  <span>$480</span></h3>
-    <h3>1/2kg  <span>$270</span></h3>
-    <h3>1/4kg  <span>$160</span></h3>
-    <h2>Surtida</h2>
-    <h3>1kg  <span>$420</span></h3>
-    <h3>1/2kg  <span>$210</span></h3>
-    <h3>1/4kg  <span>$110</span></h3>
-    <h4>"Incluye salsa verde, salsa roja, limones y habanero"</h4>
-    <h1>Carnitas para comer en el lugar</h1>
-    <h2>Macisa</h2>
-    <h3>1kg  <span>$550</span></h3>
-    <h3>1/2kg  <span>$290</span></h3>
-    <h3>1/4kg  <span>$170</span></h3>
-    <h2>Surtida</h2>
-    <h3>1kg  <span>$480</span></h3>
-    <h3>1/2kg  <span>$250</span></h3>
-    <h3>1/4kg  <span>$150</span></h3>
-    <h1>Bebidas</h1>
-    <h2>Aguas</h2>
-    <img src="imagen8.jpg" alt="Imagen 8" class="imagen-pequena">
-    <h3>Aguas de frutas naturales <span>$25</span></h3>
-    <h2>Licuados</h2>
-    <img src="imagen9.jpg" alt="Imagen 9" class="imagen-pequena">
-    <h3>Fresa y platano  <span>$45</span></h3>
-    <h3>Chocomilk  <span>$40</span></h3>
-    <h3>Combinados  <span>$50</span></h3>
-    <h2>Refrescos</h2>
+  <!-- Navbar fijo -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#tacos">Tacos</a></li>
+        <li><a href="#burritos">Burritos</a></li>
+        <li><a href="#tortas">Tortas</a></li>
+        <li><a href="#huaraches">Huaraches</a></li>
+        <li><a href="#gorditas">Gorditas</a></li>
+        <li><a href="#baguettes">Baguettes</a></li>
+        <li><a href="#carnitas">Carnitas</a></li>
+        <li><a href="#bebidas">Bebidas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1>Carnitas al estilo Michoacán "El Güero"</h1>
+    <img src="imagen1.jpg" alt="Imagen 1" class="imagen-mediana">
+  </header>
+
+  <main>
+    <!-- Especialidades -->
+    <section id="especialidades">
+      <h2>Especialidades El Güero</h2>
+      <div class="menu-item"><h3>Torta la Güereja</h3><p>Chorizo, carnitas, quesillo, frijol, mayonesa y lechuga</p><span>$75</span></div>
+      <div class="menu-item"><h3>Burrito al estilo Acapulco</h3><p>Chorizo, carnitas, quesillo, frijol y lechuga</p><span>$95</span></div>
+      <div class="menu-item"><h3>Super quesadilla</h3><p>Chorizo, carnitas, frijol y lechuga</p><span>$95</span></div>
+    </section>
+
+    <!-- Tacos -->
+    <section id="tacos">
+      <h2>Tacos</h2>
+       <img src="imagen2.jpg" alt="Imagen 2" class="imagen-mediana">
+      <div class="menu-item"><h3>Macisa</h3><span>$30</span></div>
+      <div class="menu-item"><h3>Costilla</h3><span>$30</span></div>
+      <div class="menu-item"><h3>Buche</h3><span>$30</span></div>
+      <div class="menu-item"><h3>Trompa</h3><span>$30</span></div>
+      <div class="menu-item"><h3>Oreja</h3><span>$30</span></div>
+      <div class="menu-item"><h3>Nana</h3><span>$25</span></div>
+      <div class="menu-item"><h3>Chamorro</h3><span>$25</span></div>
+      <div class="menu-item"><h3>Biuses</h3><span>$25</span></div>
+      <div class="menu-item"><h3>Cuerito</h3><span>$25</span></div>
+      <div class="menu-item"><h3>Surtida</h3><span>$25</span></div>
+    </section>
+
+    <!-- Burritos -->
+    <section id="burritos">
+      <h2>Burritos</h2>
+       <img src="imagen3.jpg" alt="Imagen 3" class="imagen-mediana">
+      <div class="menu-item"><h3>Pollo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Tasajo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Carnitas</h3><span>$65</span></div>
+      <div class="menu-item"><h3>Chorizo</h3><span>$65</span></div>
+      <div class="menu-item"><h3>Combinados</h3><span>$75</span></div>
+    </section>
+
+    <!-- Tortas -->
+    <section id="tortas">
+      <h2>Tortas</h2>
+        <img src="imagen4.jpg" alt="Imagen 4" class="imagen-mediana">
+      <div class="menu-item"><h3>Carnitas</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Pollo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Tasajo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Chorizo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Salchicha de res</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Quesillo</h3><span>$60</span></div>
+      <div class="menu-item"><h3>Jamón</h3><span>$60</span></div>
+      <div class="menu-item"><h3>Combinadas</h3><span>$75</span></div>
+    </section>
+
+    <!-- Huaraches -->
+    <section id="huaraches">
+      <h2>Huaraches</h2>
+       <img src="imagen5.jpg" alt="Imagen 5" class="imagen-mediana">
+      <div class="menu-item"><h3>Carnitas</h3><span>$65</span></div>
+      <div class="menu-item"><h3>Chorizo</h3><span>$65</span></div>
+      <div class="menu-item"><h3>Pollo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Tasajo</h3><span>$70</span></div>
+      <div class="menu-item"><h3>Combinados</h3><span>$75</span></div>
+    </section>
+
+    <!-- Gorditas -->
+    <section id="gorditas">
+      <h2>Gorditas</h2>
+       <img src="imagen6.jpg" alt="Imagen 6" class="imagen-mediana">
+      <div class="menu-item"><h3>Chicharrón prensado</h3><span>$35</span></div>
+      <div class="menu-item"><h3>Carnitas</h3><span>$35</span></div>
+      <div class="menu-item"><h3>Combinadas</h3><span>$45</span></div>
+    </section>
+
+    <!-- Baguettes -->
+    <section id="baguettes">
+      <h2>Baguettes</h2>
+       <img src="imagen7.jpg" alt="Imagen 7" class="imagen-mediana">
+      <div class="menu-item"><h3>Sencillo</h3><span>$95</span></div>
+      <div class="menu-item"><h3>Carnitas</h3><span>$110</span></div>
+      <div class="menu-item"><h3>Especial</h3><span>$120</span></div>
+    </section>
+
+    <!-- Carnitas -->
+    <section id="carnitas">
+      <h2>Carnitas para llevar</h2>
+      <div class="menu-item"><h3>Macisa 1kg</h3><span>$480</span></div>
+      <div class="menu-item"><h3>Macisa 1/2kg</h3><span>$270</span></div>
+      <div class="menu-item"><h3>Macisa 1/4kg</h3><span>$160</span></div>
+      <div class="menu-item"><h3>Surtida 1kg</h3><span>$420</span></div>
+      <div class="menu-item"><h3>Surtida 1/2kg</h3><span>$210</span></div>
+      <div class="menu-item"><h3>Surtida 1/4kg</h3><span>$110</span></div>
+      <div class="menu-item"><h3>Incluye salsa verde, salsa roja, limones y habanero</h3></div>
+
+      <h2>Carnitas para comer en el lugar</h2>
+      <div class="menu-item"><h3>Macisa 1kg</h3><span>$550</span></div>
+      <div class="menu-item"><h3>Macisa 1/2kg</h3><span>$290</span></div>
+      <div class="menu-item"><h3>Macisa 1/4kg</h3><span>$170</span></div>
+      <div class="menu-item"><h3>Surtida 1kg</h3><span>$480</span></div>
+      <div class="menu-item"><h3>Surtida 1/2kg</h3><span>$250</span></div>
+      <div class="menu-item"><h3>Surtida 1/4kg</h3><span>$150</span></div>
+    </section>
+
+   <!-- Bebidas -->
+<section id="bebidas">
+  <h2>Bebidas</h2>
+
+  <h3>Aguas</h3>
+  <img src="imagen8.jpg" alt="Imagen 8" class="imagen-pequena">
+  <div class="menu-item">
+    <h3>Aguas de frutas naturales</h3>
+    <span>$25</span>
+  </div>
+
+  <h3>Licuados</h3>
+   <img src="imagen9.jpg" alt="Imagen 9" class="imagen-pequena">
+  <div class="menu-item">
+    <h3>Fresa y plátano</h3>
+    <span>$45</span>
+  </div>
+  <div class="menu-item">
+    <h3>Chocomilk</h3>
+    <span>$40</span>
+  </div>
+  <div class="menu-item">
+    <h3>Combinados</h3>
+    <span>$50</span>
+  </div>
+
+  <h3>Refrescos</h3>
     <img src="imagen10.jpg" alt="Imagen 10" class="imagen-pequena">
-    <h3>Coca-Cola de 3L  <span>$65</span></h3>
-    <h3>Refresco de sabor 3L  <span>$55</span></h3>
-    <h3>Refrescos de 600ML  <span>$30</span></h3>
-    <h1>Servicio a domicilio</h1>
-    <img src="imagen11.jpg" alt="Imagen 11" class="imagen-pequena">
-    <h2>951 561 9680 o al 951 357 4769</h2>
-    <h2>Estamos ubicados en la calle 16 de septiembre enfrente de la panaderia "Lora"</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.6759688204347!2d-96.6004028!3d16.3394927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8a78ac900e13b%3A0x4b7db3e34b45872f!2sCarnitas%20Estilo%20Michoac%C3%A1n%20%22EL%20G%C3%BCero%22!5e0!3m2!1ses-419!2smx!4v1765953669751!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <script  src="script.js"></script>
-</body>
-</html>
+  <div class="menu-item">
+    <h3>Coca-Cola 3L</h3>
+    <span>$65</span>
+  </div>
+  <div class="menu-item">
+    <h3>Refresco de sabor 3L</h3>
+    <span>$55</span>
+  </div>
+  <div class="menu-item">
+    <h3>Refrescos 600ml</h3>
+    <span>$30</span>
+  </div>
+</section>
+
+<!-- Contacto y Servicio a domicilio -->
+<section id="contacto">
+  <h2>Servicio a domicilio</h2>
+  <img src="imagen11.jpg" alt="Imagen 11" class="imagen-pequena">
+  <div class="menu-item">
+    <p>📞 951 561 9680 | 951 357 4769</p>
+  </div>
+  <div class="menu-item">
+    <p>📍 Estamos ubicados en la calle 16 de septiembre, enfrente de la panadería "Lora"</p>
+  </div>
+
+  <!-- Mapa de Google -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.6759688204347!2d-96.6004028!3d16.3394927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8a78ac900e13b%3A0x4b7db3e34b45872f!2sCarnitas%20Estilo%20Michoac%C3%A1n%20%22EL%20G%C3%BCero%22!5e0!3m2!1ses-419!2smx!4v1765953669751!5m2!1ses-419!2smx"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
